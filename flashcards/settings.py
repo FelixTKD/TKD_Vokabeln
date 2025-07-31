@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-fxnrxgf^3gfw%8v(a+$qar!(%#5bxlrrpl%@#3(@-i*aa%z#o)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tkd-vokabeln.onrender.com',
+    'localhost',
+    '127.0.0.1']
 
 
 # Application definition
